@@ -11,8 +11,8 @@
   "backgroundColor": "#050508",
   "enableNotifications": true,
   "startUrl": "/",
-  "iconUrl": "/pwa-512x512.png",
-  "maskableIconUrl": "/pwa-maskable-512x512.png",
+  "iconUrl": "https://quadra-mind-sight.onrender.com/pwa-512x512.png",
+  "maskableIconUrl": "https://quadra-mind-sight.onrender.com/pwa-maskable-512x512.png",
   "appVersionName": "1.0.0",
   "appVersionCode": 1,
   "shortcuts": [
@@ -20,16 +20,16 @@
       "name": "Quick Practice",
       "shortName": "Practice",
       "url": "/?view=session_runner",
-      "icon": "/pwa-192x192.png"
+      "chosenIconUrl": "https://quadra-mind-sight.onrender.com/pwa-192x192.png"
     },
     {
       "name": "M.I.N.D.S. Facilitator",
       "shortName": "Facilitator",
       "url": "/?view=facilitator",
-      "icon": "/pwa-192x192.png"
+      "chosenIconUrl": "https://quadra-mind-sight.onrender.com/pwa-192x192.png"
     }
   ],
-  "webManifestUrl": "/manifest.webmanifest",
+  "webManifestUrl": "https://quadra-mind-sight.onrender.com/manifest.webmanifest",
   "fallbackType": "customtabs",
   "features": {
     "locationDelegation": {
@@ -43,5 +43,9 @@
     "enabled": false
   },
   "display": "standalone",
-  "orientation": "portrait"
+  "orientation": "portrait",
+  "signingKey": {
+    "path": "./android-release.keystore",
+    "alias": "quadra"
+  }
 }

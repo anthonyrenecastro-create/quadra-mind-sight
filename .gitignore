@@ -10,3 +10,13 @@ coverage/
 # Android release signing (never commit)
 android-release.keystore
 .keystore-pass.txt
+
+# Bubblewrap-generated Android project (regenerate with bubblewrap)
+app/
+build.gradle
+settings.gradle
+gradle.properties
+gradle/
+gradlew
+gradlew.bat
+manifest-checksum.txt
