@@ -1,0 +1,22 @@
+# Render Blueprint — one-click deploy for Quadra-M.I.N.D. Sight.
+# In Render: New > Blueprint > connect your repo containing this file.
+# Render will prompt you for GEMINI_API_KEY (and VITE_APP_URL if you change it).
+services:
+  - type: web
+    name: quadra-mind-sight
+    runtime: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    healthCheckPath: /
+    envVars:
+      - key: NODE_ENV
+        value: production
+      # Baked into the frontend at build time. Render's URL for this service
+      # is predictable: https://<name>.onrender.com
+      - key: VITE_APP_URL
+        value: https://quadra-mind-sight.onrender.com
+      # Leave empty to run with offline AI fallbacks; set to a real key for
+      # live Gemini responses. Render prompts for this on first deploy.
+      - key: GEMINI_API_KEY
+        sync: false

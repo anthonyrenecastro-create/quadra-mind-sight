@@ -1,0 +1,6 @@
+{
+  "name": "Quadra-M.I.N.D. Sight",
+  "description": "Guided consciousness-exploration, metacognitive training, binaural spatial audio, four-quadrant cognitive exercises, and AI-guided dialectic introspection.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

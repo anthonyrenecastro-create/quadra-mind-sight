@@ -1,0 +1,45 @@
+{
+  "background_color": "#ffffff",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "quadraminds.ai",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "quadraminds.ai",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "id": "https://quadraminds.ai.studio/",
+  "description": "Guided consciousness-exploration, metacognitive training, binaural spatial audio, four-quadrant cognitive exercises, and AI-guided dialectic introspection.",
+  "lang": "en",
+  "categories": [
+    "health",
+    "fitness",
+    "education"
+  ],
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "packageId": "com.axiomzeta.quadramindsight",
+  "host": "quadraminds.ai.studio",
+  "name": "quadraminds.ai",
+  "launcherName": "quadraminds.ai",
+  "themeColor": "#050508",
+  "navigationColor": "#050508",
+  "navigationColorDark": "#050508",
+  "navigationDividerColor": "#1F2438",
+  "navigationDividerColorDark": "#1F2438",
+  "backgroundColor": "#050508",
+  "enableNotifications": true,
+  "startUrl": "/",
+  "iconUrl": "/pwa-512x512.png",
+  "maskableIconUrl": "/pwa-maskable-512x512.png",
+  "appVersionName": "1.0.0",
+  "appVersionCode": 1,
+  "shortcuts": [
+    {
+      "name": "Quick Practice",
+      "shortName": "Practice",
+      "url": "/?view=session_runner",
+      "icon": "/pwa-192x192.png"
+    },
+    {
+      "name": "M.I.N.D.S. Facilitator",
+      "shortName": "Facilitator",
+      "url": "/?view=facilitator",
+      "icon": "/pwa-192x192.png"
+    }
+  ],
+  "webManifestUrl": "/manifest.webmanifest",
+  "fallbackType": "customtabs",
+  "features": {
+    "locationDelegation": {
+      "enabled": false
+    },
+    "playBilling": {
+      "enabled": false
+    }
+  },
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "display": "standalone",
+  "orientation": "portrait"
+}
