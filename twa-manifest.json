@@ -1,8 +1,8 @@
 {
-  "packageId": "com.axiomzeta.quadramindsight",
+  "packageId": "org.axiomzetainnovations.quadraroundsight",
   "host": "quadraminds.ai.studio",
-  "name": "quadraminds.ai",
-  "launcherName": "quadraminds.ai",
+  "name": "Quadra-M.I.N.D. Sight",
+  "launcherName": "Quadra-M.I.N.D. Sight",
   "themeColor": "#050508",
   "navigationColor": "#050508",
   "navigationColorDark": "#050508",
