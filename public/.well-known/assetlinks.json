@@ -1,12 +1,1 @@
-[
-  {
-    "relation": ["delegate_permission/common.handle_all_urls"],
-    "target": {
-      "namespace": "android_app",
-      "package_name": "com.axiomzeta.quadramindsight",
-      "sha256_cert_fingerprints": [
-        "YOUR_RELEASE_KEYSTORE_SHA256_FINGERPRINT_HERE"
-      ]
-    }
-  }
-]
+[{"relation":["delegate_permission/common.handle_all_urls"],"target":{"namespace":"android_app","package_name":"org.axiomzetainnovations.quadraroundsight","sha256_cert_fingerprints":["84:73:B6:86:06:4B:1B:CA:88:0D:C7:7C:BB:BA:88:15:C7:BE:BC:4B:A8:AD:1F:31:3F:55:31:8E:76:39:73:F0"]}}]
